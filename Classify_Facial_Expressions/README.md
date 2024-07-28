@@ -18,10 +18,7 @@ The model is built using the Sequential API from Keras with the following layers
 - 2 Dense layers with Batch Normalization, ReLU activation, and Dropout
 - Output layer with Softmax activation
 
-## Results
-- Model from Scratch
-  Validation accuracy: 0.6775
-- VGG16 Model
-  Validation accuracy: 0.6437
-- ResNet50 Model
-  Validation accuracy: 0.6147
+## Validation accuracy
+- Model from Scratch: 0.6775%
+- VGG16 Model: 0.6437%
+- ResNet50 Model: 0.6147%
