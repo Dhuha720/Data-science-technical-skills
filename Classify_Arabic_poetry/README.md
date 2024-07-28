@@ -20,3 +20,8 @@ To run this project, you'll need to install the necessary libraries. Use the fol
 ```bash
 pip install -q pyarabic imbalanced-learn
 pip install nltk scikit-learn matplotlib wordcloud
+
+```
+## Results
+
+The models achieve high accuracy, with detailed performance metrics available in the output. The project demonstrates effective classification of Arabic poetry using machine learning.
