@@ -1,14 +1,7 @@
 # Classify Facial Expressions
 
-This project aims to classify facial expressions using convolutional neural networks (CNNs) with TensorFlow/Keras, and pretrained models like VGG and ResNet.
-
-## Table of Contents
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Results](#results)
-
-## Overview
-This project classifies facial expressions from images using deep learning techniques. The model is trained to recognize six different expressions: happy, sad, angry, surprised, neutral, and fearful.
+This project classifies facial expressions from images using convolutional neural networks (CNNs) with TensorFlow/Keras, and pretrained models like VGG and ResNet..
+The model is trained to recognize six different expressions: happy, sad, angry, surprised, neutral, and fearful.
 
 ## Dataset
 The dataset used for this project is from Kaggle and consists of images labeled with different facial expressions. You can find the dataset here: [Facial Expression Dataset](https://www.kaggle.com/datasets/aadityasinghal/facial-expression-dataset).
@@ -27,5 +20,8 @@ The model is built using the Sequential API from Keras with the following layers
 
 ## Results
 - Model from Scratch
-- VGG16 Model 
+  Validation accuracy: 0.6775
+- VGG16 Model
+  Validation accuracy: 0.6437
 - ResNet50 Model
+  Validation accuracy: 0.6147
